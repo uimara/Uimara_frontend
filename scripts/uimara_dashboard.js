@@ -108,4 +108,4 @@ function updateBalance(balance) {
 	console.log(balance);
   }
 
-// load();
+$('#connect').click(function () { load(); });
