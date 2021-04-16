@@ -103,9 +103,7 @@ function updateStatus(status) {
 }
 
 function updateBalance(balance) {
-	const balanceEl = document.getElementById("balance");
-	balanceEl.innerHTML = balance;
-	console.log(balance);
-  }
-
-$('#connect').click(function () { load(); });
+  const balanceEl = document.getElementById("balance");
+  balanceEl.innerHTML = balance;
+  console.log(balance);
+}
