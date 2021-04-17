@@ -70,6 +70,20 @@ h2 {
     color: whitesmoke; 
     
 }
+.btn-1{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 0px;
+    border: 0;
+    background: #ffff;
+    color: #42210b;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover, .btn-1:hover{
+    background: #fafafa;
+    color: #ffff;
+}
 .video {
     margin-left: 450px;
     margin-top: 60px;
