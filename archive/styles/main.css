@@ -30,6 +30,7 @@ p {
 h1 {
     margin-left: 27%;
     margin-top: 3%;
+    color: #fff;
     
 }
 
@@ -40,7 +41,6 @@ div.nav-bar {
     margin-top: -80px;
     padding: 1rem 6rem;
     width: 100vw;
-    background: #b2b6b9;
     
 
 }
@@ -67,7 +67,7 @@ ul li a:hover {
 h2 {
     text-align: center;
     margin-top: 50px;
-    color: #ffff; 
+    color: #fff; 
     
 }
 .btn-1{
@@ -81,7 +81,7 @@ h2 {
     cursor: pointer;
 }
 .btn:hover, .btn-1:hover{
-    background: #fafafa;
+    background: #42210b;
     color: #ffff;
 }
 .video {
