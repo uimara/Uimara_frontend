@@ -5,7 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
-    background-color: background:radial-gradient(#646ee2, #0000ff);
+    background:radial-gradient(#646ee2,#0000ff);
     
 }
 
@@ -67,7 +67,7 @@ ul li a:hover {
 h2 {
     text-align: center;
     margin-top: 50px;
-    color: whitesmoke; 
+    color: #ffff; 
     
 }
 .btn-1{
