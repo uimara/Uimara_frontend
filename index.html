@@ -2,68 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initia-scale=1.0">
-    <meta name="keyword" content="HTML, CSS, JavaScript">
-    <meta name="description" content="This algorithmic stablecoin demo was sponsored by Binance Smart Chain (BSC) in collaboration with ChainIDE">
-    <title>Binance Demo show</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="./Vendor/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
+    <title>Uimara.web</title>
 </head>
-<body>
-    <img class ="logo" src="images/logo.png" alt="Logo">
-    <div class="nav-bar">
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="how.html">How it works</a></li>
-            <li><a href="our.html">Our services</a></li>
-            <li class ="login" ><a href="login.html">Login</a></li>
-            <li><a href="register.html">Register</a></li>
-        </ul>
+<!--Banner Area-->
+<div class="banner-area">
+    <header>
+        <nav class="header">
+            <ul>
+                <li class="items"><a href="index.html" class="link text-light">Home</a></li>
+                <li class="items"><a href="#" class="link text-light">How it works</a></li>
+                <li class="items"><a href="#" class="link text-light">Road map</a></li>
+                <li class="items"><a href="https://uimara.github.io/uimara-frontend/dashboard.html" class="link text-light">Account</a></li>
+                <li class="btn-2"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+      </nav>   
+    </header>
+    <div class="row">
+        <div class="col-2">
+            <img class="tale" src="./Assets/images/UimaraWhite logo-06.png">
+        </div>
+        <div class="col-2">
+            <div class="banner-text">
+                <h1 class="text-lg text-light">Connecting Africa</h1>
+                <p class="text-light">Building a United African Market Place...</p>
+                <a href="https://uimara.github.io/uimara-frontend/dashboard.html" class="btn-1">Start Now</a>
+            </div> 
+        </div>
     </div>
-    <h1>Official Homepage of Uimara Coin!</h1>
-    <p><b>Home</b></p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus corrupti quasi, veniam similique animi pariatur ea accusantium, alias in deserunt enim qui excepturi rem perferendis labore beatae doloremque soluta neque?</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nobis consectetur provident vel earum. Quaerat deserunt, reiciendis facilis minima in aliquid est molestiae suscipit, sequi sunt nobis nihil omnis error!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam porro repellat quae incidunt dolorum provident consequatur facere dolores ipsa alias ratione recusandae molestias soluta atque, asperiores, laborum quo nisi reprehenderit.</p>
+</div> 
+<div class="about">
+    <h2 class="text-center text-dark">Uimara translates price volatility into supply volatility using<br> a rebase mechanism</h2>
+    <p class="description text-gray">Imara Token (IMT) is stabe at a price of 1IMT = $0.50 <br>
+    while supply changes proportionately across user wallets.<br>
+    With IMT, prices of goods and services are ensured to be stable<br>
+    and more predictable.<br>
+    Token supply is non-diluent as amount in wallets is percentage that<br>
+    remains the same with changes in demand and suppy.</p>
+    <div class="code-box">
+        <p class="text-light text-center text-light">When Price < $0.50, wallet balance decrease proportionately</p>
+        <p class="text-light text-center text-light">When Price > $0.50, wallet balance increase proportionately</p>
+    </div>
+</div>
+<div class="team">
+    <h1 class="text-light text-center heading">The Team</h1>
+    <div class="row">
+        <div class="col-4">
+            <img src="https://avatars.githubusercontent.com/u/29481787?v=4" alt="">
+            <h3 class="text-center text-light">CN</h3>
+        </div>
+        <div class="col-4">
+            <img src="https://avatars.githubusercontent.com/u/78309472?v=4" alt="">
+            <h3 class="text-center text-light">Joe</h3>
+        </div>
+        <div class="col-4">
+            <img src="https://avatars.githubusercontent.com/u/65224058?s=400&u=7e0eb12c5289d54ec34ed659103ba2d2def971ad&v=4" alt="">
+            <h3 class="text-center text-light">Josh</h3>
+        </div>
+        <div class="col-4">
+            <img src="https://avatars.githubusercontent.com/u/78255182?v=4" alt="">
+            <h3 class="text-center text-light">Lotanna</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <img src="https://avatars.githubusercontent.com/u/35898728?v=4" alt="">
+            <h3 class="text-center text-light">Lutor</h3>
+        </div>
+        <div class="col-3">
+            <img src="https://avatars.githubusercontent.com/u/42995843?v=4" alt="">
+            <h3 class="text-center text-light">Odewale</h3>
+        </div>
+        <div class="col-3">
+            <img src="https://avatars.githubusercontent.com/u/42995843?v=4" alt="">
+            <h3 class="text-center text-light">Ramon</h3>
+        </div>
+    </div>
+</div>
+ 
 
+<!-------------------Footer---------------------->
+
+
+<!------------------custom script file------------------->
+
+<!----------jquery file----------------->
+<script src="./Vendor/js/jquery-3.5.1.js">
     
-        <source src="videos/coin.mp4" type="video/mp4">
-        <source src="videos/coin.ogg" type="video/ogg">
-        </video>
-        
-        <img class = "globe"src ="images/globe.jpg" alt="Globe"/>
+</script>
 
-    <img class ="home" src="images/image1.jpg" alt="Home"/>
-    <h5 class ="hometext">uimara coin, a must have for every home!</h5>
-    <img class ="network" src="images/image2.jpg" alt="Network"/>
-    <h5 class = "networktext">coins that connect the world</h5>
-    <img class ="world" src="images/image3.jpg" alt="World"/>
-    <h5 class ="worldtext">Dive into a world of endless and diverse possibilities</h5>
-    <img class ="future" src="images/image4.jpg" alt="World"/>
-    <h5 class ="futuretext">Invest in our coin and secure your future</h5>
-
-    <img class = "deco"src ="images/coin.jpg" alt="Coin"/> 
+<script src="./Assets/Js/main.js">
      
+</script> 
 
-    <h2>Contact us</h2>
-    <form>
-        <input type="text"placeholder="Full Name">
-        <input type="email"placeholder="Email">
-        <textarea></textarea>
-        <button class="butt">Submit</button>
-    </form>
-   
-    <h6>Copyright &copy; 2021  Binance Demo Show.</h6>
 
-    <img class="uimara" src ="images/logo.png" alt ="uimara logo"/>
-    <img src="images/BSC.jpg" alt ="BSC logo"/>
-    <img src="images/chainIDE.jpg" alt ="ChainIDE logo"/>
-    <img src="images/whiteMatrix.jpg" alt ="whitematrix logo"/>
-    <img src="images/xendFinance.jpg" alt ="xend Finance logo"/>
-        
+<body>
     
-
-
-
 </body>
 </html>
