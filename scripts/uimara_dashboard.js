@@ -64,9 +64,17 @@ async function getCurrentAccount() {
 }
 
 async function doRebase() {
-  await window.contract.methods.rebase().call();
-  await refreshDashboard();
-  updateStatus("Rebase done!");
+  const address = await getCurrentAccount();
+  await window.contract.methods.rebase().send({ from: address })
+    .then(() => {
+      updateStatus("Rebase done!");
+      refreshDashboard();
+    })
+    .catch((error) => {
+      window.alert(error);
+      updateStatus("Rebase failed");
+    });
+  
 }
 
 function updateStatus(status) {
