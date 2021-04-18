@@ -11,8 +11,8 @@
     <script type="text/javascript" src="./scripts/uimara_dashboard.js"></script>
   </head>
   <body>
-    <h2>Uimara Dashboard</h2>
-    <br /><br /><br />
+    <h2 style="color:blue; text-align:center;">Your Uimara Dashboard</h2>
+    <br /><br />
 
     <button
       class="btn-1"
@@ -22,12 +22,24 @@
     >
       Connect MetaMask Wallet
     </button>
-    <br /><br /><br />
+    <br />
 
     <div style="margin: 20px 20px;">
+      Your address: <span id="address"></span> <br /><br /><br />
+
       Your IMT balance: <span id="balance"></span> <br /><br /><br />
 
-      Epoch: <span id="epoch"></span> <br /><br /><br />
+      Epoch: <span id="epoch"></span> <br /><br />
+
+      <button
+        class="btn-1"
+        type="button"
+        onclick="doRebase();"
+        style="margin-left:20px;"
+      >
+        Rebase
+      </button>
+      <br /><br /><br />
 
       Total Supply: <span id="totalSupply"></span> <br /><br /><br />
 

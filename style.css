@@ -14,7 +14,7 @@
 /*CSS Variables*/
 :root{
     --primary-color: #fafafa; /*var (--primary-color);*/
-    --secondary-color: #42210b;
+    --secondary-color: #0511b6;
     --border: #e9e9e9;
     --gray: #8d8d8d;
     --gray-dark:#343a40;
@@ -397,14 +397,10 @@ a{
     padding: 10px 20px;
     border-radius: 0px;
     border: 0;
-    background: var(--primary-color);
-    color: #42210b;
+    background: var(--secondary-color);
+    color: white;
     font-weight: bold;
     cursor: pointer;
-}
-.btn:hover, .btn-1:hover{
-    background: var(--secondary-color);
-    color: #ffff;
 }
 .tale{
     transition: transform 0.3s;

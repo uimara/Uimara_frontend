@@ -3,13 +3,15 @@ var a = document.getElementById("info");
 async function initialize() {
   await loadWeb3();
   window.contract = await loadContract();
-  
+  await refreshDashboard();
+  updateStatus("Ready!");
+}
+
+async function refreshDashboard() {
   await getBalance();
   await getEpoch();
   await getTotalSupply();
   await getScaledTotalSupply();
-
-  updateStatus("Ready!");
 }
 
 async function loadWeb3() {
@@ -54,7 +56,17 @@ async function getScaledTotalSupply() {
 
 async function getCurrentAccount() {
   const accounts = await window.web3.eth.getAccounts();
+
+  const addressEl = document.getElementById("address");
+  addressEl.innerHTML = accounts[0];
+
   return accounts[0];
+}
+
+async function doRebase() {
+  await window.contract.methods.rebase().call();
+  await refreshDashboard();
+  updateStatus("Rebase done!");
 }
 
 function updateStatus(status) {
