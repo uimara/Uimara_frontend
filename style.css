@@ -156,7 +156,7 @@ nav{
     background-color: var(--primary-color);
 }
 .banner-area{
-    background:radial-gradient(#646ee2,#0000ff);
+    background: radial-gradient(#646ee2,#0000ff);
     height: 700px;
 }
 .banner-text{
@@ -462,7 +462,7 @@ h4{
 }
 .dash{
     background: #fff;
-    }
+ }
 .description{
     margin-left: 30%;
     margin-right: 30%;
