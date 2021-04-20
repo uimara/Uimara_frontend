@@ -411,6 +411,7 @@ a{
 .btn:hover{
     background: var(--secondary-color);
     color: #ffff;
+}
 .tale{
     transition: transform 0.3s;
 }
