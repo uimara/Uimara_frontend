@@ -399,7 +399,7 @@ a{
     border-radius: 0px;
     border: 0;
     background: var(--primary-color);
-    color: var(--secondary-color);
+    color: #0000;
     font-weight: bold;
     cursor: pointer;
 }
